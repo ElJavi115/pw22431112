@@ -1,0 +1,43 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    border: 1px solid red;
+    font-size:  16px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header nav ol {
+    text-align: center;
+}
+header img{
+    width: 100px;
+    border-radius: 100px;
+}
+
+header nav ol li{
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    box-shadow: 4px 4px 1px black;
+    color: white;
+    display: inline-block;
+    margin-inline: 10px;
+    /* padding: 10px; */
+    padding: 10px 26px;
+}
+
+header nav ol li:hover{
+    background-color: white;
+    box-shadow: 0px 0px 0px white;
+    color:darkblue;
+}
+
+main section article{
+    display: inline-block;
+    vertical-align: top;
+    width: 32.9%;
+}
